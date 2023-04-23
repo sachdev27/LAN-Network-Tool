@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=500px height=200px src="https://user-images.githubusercontent.com/54627871/233844044-12d0dc04-502a-4183-af38-3e97ed3ea9bd.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Python Networking Toolbox</h3>
@@ -21,6 +21,9 @@
 This Python script is a collection of modules that allows you to perform various networking tasks, including device scanning, speed testing, DOS attacks, and Internet connection diagnostics. The script uses the Scapy library for scanning and DOS attacks, the speedtest-cli library for speed testing, and the built-in Python libraries for Internet connection diagnostics.
 
 ## Screenshots
+
+
+
 
 ## Requirements
 
@@ -54,8 +57,7 @@ This module uses the speedtest-cli library to test the download and upload speed
 3. DOS Attack
 This module uses Scapy to launch a DOS attack on a target device. It sends a large number of packets to the target device, overwhelming it and causing it to crash or become unresponsive. This module should only be used for testing purposes on a network that you own.
 
-4. Internet Connection Diagnostic
-This module performs a series of tests to diagnose any issues with your Internet connection. It checks the ping time to a number of servers, tests for packet loss, and checks the download and upload speed. It returns a report of any issues found.
+4. Traceroute module: This module uses the CMDLine to perform a traceroute analysis of the network. It identifies the exact hop at which the packet is being dropped and provides the necessary information to diagnose the issue.
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
